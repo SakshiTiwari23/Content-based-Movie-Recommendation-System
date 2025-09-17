@@ -123,7 +123,7 @@ def recommend(movie):
 
 
 # Streamlit app
-st.title('Movie Recommender System')
+st.title('FilmFlux')
 
 # Dropdown for movie selection
 selected_movie_name = st.selectbox(
@@ -144,4 +144,5 @@ if st.button('Recommend'):
         else:
             st.warning("No recommendations found for the selected movie.")
     else:
+
         st.warning("Please select a movie.")
